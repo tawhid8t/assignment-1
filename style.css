@@ -1,0 +1,178 @@
+.body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFF; 
+    
+}
+.banner{
+    background-image: url('/resources/Banner\ Image.png');
+    margin: 50px 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    
+}
+/* .banner img{
+    width: 1000px;
+    height: 500px;
+    margin: 50px 130px;
+} */
+.banner h3{
+    color: #fff;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.discount{
+    text-align: center;
+}
+.discount h2{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.discount p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.discount h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.discount img{
+    width: 802.9px;
+    height: 500px;
+}
+.party{
+    display: flex;
+    background-image: url('/resources/Vectorrr.png');
+    height: 600px;
+    margin: 50px 140px 0px 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 60px;
+}
+.party_text{
+    padding-left: 80px;
+}
+.party_text h3{
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.party_text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.party_text h4{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+}
+.party_img img{
+    width: 219.83px;
+    height: 300.662px;
+    padding-right: 90px;
+}
+.info{
+    
+    text-align: center;
+    background-color: #FFEDED;
+    padding: 80px 0px;
+    margin: 0px 140px;
+    margin-bottom: 120px;
+}
+.info h3{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: 5px;
+}
+.info h3 span{
+    color: #F00
+}
+.info button{
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+}
+.holiday{
+    text-align: center;
+    margin: 50px 200px 0px 200px;
+}
+.holiday h3{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday h2{
+    color: #070211;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday h2 span{
+    color: #F00;
+}
+.holiday p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday_img{
+    display: flex;
+    padding: 50px 140px 0px 140px;
+    
+}
+.rectangle_1{
+    
+    
+}
+.rectangle_2{
+    
+    
+    
+}
+.group_44{
+    
+}
+.group_75{
+    
+}
