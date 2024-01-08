@@ -1,3 +1,4 @@
+
 .body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather Sans', sans-serif;
@@ -8,39 +9,49 @@
 }
 .container{
     margin: 50px 140px;
+    max-width: 1280px;
 }
 /* banner section css*/
 .banner{
-    background-image: url('/resources/Banner\ Image.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 600px;
-    
-}
-.banner h3{
-    color: #fff;
+    width: 100%;
     text-align: center;
+}
+.banner img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.banner_text{
+    position: absolute;
+    top: 0px;
+    margin: 120px 80px;
+}
+.banner_text h3{
+    color: #fff;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 32px;
     font-weight: 400;
 }
-.banner h2{
+.banner_text h2{
     color: #fff;
-    text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 72px;
     font-weight: 900;
+    line-height: 95px;
+    margin-top: 0px;
 }
 /* discount section css */
 .discount{
     text-align: center;
     margin-bottom: 120px;
+    margin-top: 120px;
 }
 .discount h2{
     color: #F00;
     font-size: 88px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    margin: 0px;
 }
 .discount p{
     color: #F00;
@@ -62,13 +73,17 @@
 .party{
     display: flex;
     background-image: url('/resources/Vectorrr.png');
-    height: 600px;
+    height: auto;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding-top: 60px;
+    background-color: #222;
+    background-blend-mode: soft-light;
+    width: 100%;
 }
 .party_text{
     padding-left: 80px;
+    padding-bottom: 80px;
 }
 .party_text h3{
     color: #FFF;
@@ -103,6 +118,7 @@
     background-color: #FFEDED;
     padding: 80px 0px;
     margin-bottom: 120px;
+    margin-top: 120px;
 }
 .info h3{
     color: #070211;
@@ -140,9 +156,9 @@
 /* Bonus section css */
 .bonus{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
 }
-.bonus_left_text{}
 .bonus_left_text h3{
     color: #F00;
     font-family: 'Inter', sans-serif;
@@ -154,24 +170,37 @@
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 48px;
     font-weight: 900;
+    margin-top: 20px;
 }
 .bonus_left_text p{
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
-
 }
-.bonus_img{}
-#bonus_img_1{}
+.bonus_img{
+    margin-left: 60px;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+#bonus_img_1{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
 #bonus_img_2{
+    position:absolute;
+    left: 37%;
+    top: 300%;
+    height: 400px;
+    width: 400px;
 }
-.bonus_right_text{}
 .bonus_right_text h2{
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
+    margin-top: 20px;
 }
 .bonus_right_text p{
     color: rgba(7, 2, 17, 0.60);
@@ -179,22 +208,25 @@
     font-size: 20px;
     font-weight: 400;
 }
-.bonus_right_text img{}
 /* holiday section css */
 .holiday{
     text-align: center;
+    margin-top: 120px;
+    
 }
 .holiday h3{
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
+    margin-top:20px;
 }
 .holiday h2{
     color: #070211;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 72px;
     font-weight: 900;
+    margin: 0px;
 }
 .holiday h2 span{
     color: #F00;
@@ -206,30 +238,24 @@
     font-weight: 500;
 }
 .holiday_img{
-    display: flex;
-    background-image: url('/resources/Rectangle\ 2.png');
-    background-position: bottom;
+    position: relative;
 }
-.rectangle_2{
-    
+#grp_79{
     position: absolute;
-    width: 975px;
+    width: 100%;
 }
-.group_44{
+#grp_83{
     position: absolute;
-    
-}
-.group_75{
-    position: absolute;
-    width: 300px;
-    height: 300px;
+    right: 0;
+    top: 0;
+    width: 450px;
+    height: 318px;
 }
 /* portfolio section css */
 .portfolio{
-    margin-top: 500px;
+    margin-top: 700px;
     margin-bottom: 120px;
 }
-.portfolio_text{}
 .portfolio_text h3{
     color: #F00;
     font-family: 'Inter', sans-serif;
