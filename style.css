@@ -72,7 +72,7 @@
 /* party section css */
 .party{
     display: flex;
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('./resources/Vectorrr.png');
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
